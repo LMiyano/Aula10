@@ -2,10 +2,33 @@ package br.com.db1.exercicio08;
 
 public class Conta {
 
-	@SuppressWarnings("unused")
 	private Integer numero;
-	@SuppressWarnings("unused")
 	private Integer digitoVerificador;
+	public Pessoa pessoa;	
+
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public void setNumero(Integer numero) {
+		this.numero = numero;
+	}
+
+	public Integer getDigitoVerificador() {
+		return digitoVerificador;
+	}
+
+	public void setDigitoVerificador(Integer digitoVerificador) {
+		this.digitoVerificador = digitoVerificador;
+	}
 
 	public void calcularDigitoVerificador() {
 	}

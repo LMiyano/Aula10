@@ -1,15 +1,36 @@
 package br.com.db1.exercicio06;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Pedido {
 
-	@SuppressWarnings("unused")
 	private Integer numero;
-	@SuppressWarnings("unused")
 	private Integer numeroMesa;
-	@SuppressWarnings("unused")
 	private Date dataPedido;
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public void setNumero(Integer numero) {
+		this.numero = numero;
+	}
+
+	public Integer getNumeroMesa() {
+		return numeroMesa;
+	}
+
+	public void setNumeroMesa(Integer numeroMesa) {
+		this.numeroMesa = numeroMesa;
+	}
+
+	public Date getDataPedido() {
+		return dataPedido;
+	}
+
+	public void setDataPedido(Date dataPedido) {
+		this.dataPedido = dataPedido;
+	}
 
 	public void cadastrarPedido() {
 	}

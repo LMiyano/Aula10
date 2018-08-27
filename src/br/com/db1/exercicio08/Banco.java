@@ -4,12 +4,33 @@ import java.sql.Date;
 
 public class Banco {
 
-	@SuppressWarnings("unused")
 	private String nome;
-	@SuppressWarnings("unused")
 	private Date dataFundacao;
-	@SuppressWarnings("unused")
 	private String publico;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Date getDataFundacao() {
+		return dataFundacao;
+	}
+
+	public void setDataFundacao(Date dataFundacao) {
+		this.dataFundacao = dataFundacao;
+	}
+
+	public String getPublico() {
+		return publico;
+	}
+
+	public void setPublico(String publico) {
+		this.publico = publico;
+	}
 
 	public Boolean isPublico() {
 		return null;

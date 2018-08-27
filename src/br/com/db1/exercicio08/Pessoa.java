@@ -1,12 +1,26 @@
 package br.com.db1.exercicio08;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Pessoa {
 
-	@SuppressWarnings("unused")
 	private String nome;
-	@SuppressWarnings("unused")
 	private Date dataNascimento;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 
 }
